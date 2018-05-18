@@ -41,12 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DAOS\EquiposDAO.cs" />
+    <Compile Include="DAOS\EventoDAO.cs" />
+    <Compile Include="DAOS\FacturacionDAO.cs" />
+    <Compile Include="DAOS\ParticipantesDAO.cs" />
+    <Compile Include="DAOS\UsuariosDAO.cs" />
     <Compile Include="Modelo\equipos.cs" />
     <Compile Include="Modelo\evento.cs" />
     <Compile Include="Modelo\facturacion.cs" />
     <Compile Include="Modelo\participantes.cs" />
     <Compile Include="Modelo\usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="util\Conexion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BD\codingCup.sql" />
